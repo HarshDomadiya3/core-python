@@ -1,1 +1,21 @@
-[ ] harsh
+
+# Step 2: Initialize Git
+git init
+
+# Step 3: Add all files to Git
+git add .
+
+# Step 4: Commit your changes
+git commit -m "Initial commit - uploaded core python project"
+
+# Step 5: Remove old remote (if any)
+git remote remove origin
+
+# Step 6: Add your new GitHub repo link
+git remote add origin https://github.com/HarshDomadiya3/core-python.git
+
+# Step 7: Set branch name to main
+git branch -M main
+
+# Step 8: Force push your code to GitHub
+git push -u origin main --force
